@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8931a3e7-779d-4752-a6a7-704dc497848f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/usuarios/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usuarios/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/financas/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/financas/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usuarios/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/usuarios/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/financas/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financas/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/financas/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
