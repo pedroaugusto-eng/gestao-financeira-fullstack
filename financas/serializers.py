@@ -1,12 +1,7 @@
 from rest_framework import serializers
-from .models import Categoria, Transacao
-
-class CategoriaSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Categoria
-        fields = ['id', 'nome', 'tipo']
+from .models import Transacao
 
 class TransacaoSerializer(serializers.ModelSerializer):
     class Meta:
         model = Transacao
-        fields = ['id', 'categoria', 'descricao', 'valor', 'data']
+        fields = ['id', 'tipo', 'descricao', 'valor', 'data']
