@@ -10,7 +10,7 @@ function Dashboard({ onLogout, modoNoturno, setModoNoturno, cores }) {
     const token = localStorage.getItem('access_token');
     
     try {
-      const resResumo = await fetch('http://127.0.0.1:8000/api/financas/dashboard/', {
+      const resResumo = await fetch('https://gestao-financeira-fullstack.onrender.com/api/financas/dashboard/', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (resResumo.ok) {
@@ -20,7 +20,7 @@ function Dashboard({ onLogout, modoNoturno, setModoNoturno, cores }) {
         onLogout();
       }
 
-      const resTransacoes = await fetch('http://127.0.0.1:8000/api/financas/transacoes/', {
+      const resTransacoes = await fetch('https://gestao-financeira-fullstack.onrender.com/api/financas/transacoes/', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (resTransacoes.ok) {
@@ -41,7 +41,7 @@ function Dashboard({ onLogout, modoNoturno, setModoNoturno, cores }) {
     const token = localStorage.getItem('access_token');
     
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/financas/transacoes/', {
+      const response = await fetch('https://gestao-financeira-fullstack.onrender.com/api/financas/transacoes/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ function Dashboard({ onLogout, modoNoturno, setModoNoturno, cores }) {
 
     const token = localStorage.getItem('access_token');
     try {
-      const response = await fetch(`http://127.0.0.1:8000/api/financas/transacoes/${id}/`, {
+      const response = await fetch(`https://gestao-financeira-fullstack.onrender.com/api/financas/transacoes/${id}/`, {
         method: 'DELETE',
         headers: { 'Authorization': `Bearer ${token}` }
       });

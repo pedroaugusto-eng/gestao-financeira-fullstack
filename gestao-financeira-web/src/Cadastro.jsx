@@ -11,7 +11,7 @@ function Cadastro({ onVoltar, modoNoturno, setModoNoturno, cores }) {
     setErro('');
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/usuarios/registrar/', {
+      const response = await fetch('https://gestao-financeira-fullstack.onrender.com/api/usuarios/registrar/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, email, telefone, password }),
