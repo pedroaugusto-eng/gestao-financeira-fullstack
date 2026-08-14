@@ -30,6 +30,3 @@ Este projeto foi construído do zero utilizando a abordagem de **Monorepo**, iso
 - **CRUD Completo:** Criação, leitura, atualização e exclusão de transações financeiras com comunicação assíncrona (`fetch`) com a API REST.
 - **Interface Dinâmica:** Renderização condicional e feedback visual instantâneo para o usuário.
 - **Segurança de Rede:** Configuração estrita de `CORS` e `ALLOWED_HOSTS` no Django para garantir que apenas o frontend oficial acesse os dados.
-python -m venv .venv
-# Ative o ambiente (no Windows): .venv\Scripts\activate
-pip install -r requirements.txt
